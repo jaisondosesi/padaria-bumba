@@ -4,8 +4,8 @@ Desenvolvimento de um CRUD para nossa padaroa Bumba meu Pão
 # codigo mysql
 
 # create db
-CREATE DATABASE padaria;
-USE padaria;
+CREATE DATABASE padaria_bumbameupao;
+USE padaria_bumbameupao;
 
 CREATE TABLE usuarios (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
@@ -48,11 +48,21 @@ CREATE TABLE pedidos (
 );
 
 # insert usuario
-USE padaria;
+USE padaria_bumbameupao;
 
 INSERT INTO usuarios (id_usuario, nome, email, senha_hash, telefone, endereco, data_contratacao) VALUES (1, 'Joao', 'privjoao@gmail.com', 'Joãolindo123', '(47)996700584', 'Joinville115', '2023/08/09');
 
 # insert produtos
-use padaria;
+USE padaria_bumbameupao;
 
-INSERT INTO produtos (id_produto, nome, descricao, preco, quantidade_estoque, id_usuario) VALUES (1, 'Pão Francês', 'Pão francês fresquinho, com casca crocante e miolo macio.', 16.50, 50, 1), (2, 'Pão De Queijo', 'Tradicional pão de queijo mineiro, crocante por fora e macio por dentro.', 2.50, 20, 1), (3, 'Croissant', 'Croissant leve e folhado, com manteiga na medida certa.', 4.00, 10, 1), (4, 'Bolo de Fubá', 'Bolo de fubá fofinho, com sabor caseiro e toque de erva-doce.', 12.00, 5, 1), (5, 'Torta de Frango', 'Torta de frango cremosa, com recheio temperado e massa leve.', 8.00, 12, 1), (6, 'Biscoito de Maizena', 'Biscoito de maizena leve e amanteigado, que derrete na boca.', 5.00, 30, 1), (7, 'Pão de Alegria', 'Pão de Alegria macio, recheado com queijo cremoso.', 3.00, 30, 1), (8, 'Pão Doce', 'Pão doce macio e saboroso, perfeito para acompanhar o café.', 3.50, 40, 1), (9, 'Rosca de Coco', 'Rosca macia e doce, com sabor suave de coco e cobertura açucarada.', 7.00, 25, 1), (10,[...]
+INSERT INTO produtos (id_produto, nome, descricao, preco, quantidade_estoque, id_usuario) VALUES
+(1, 'Pão Francês', 'Pão francês fresquinho, com casca crocante e miolo macio.', 16.50, 50, 1),
+(2, 'Pão De Queijo', 'Tradicional pão de queijo mineiro, crocante por fora e macio por dentro.', 2.50, 20, 1),
+(3, 'Croissant', 'Croissant leve e folhado, com manteiga na medida certa.', 4.00, 10, 1),
+(4, 'Bolo de Fubá', 'Bolo de fubá fofinho, com sabor caseiro e toque de erva-doce.', 12.00, 5, 1),
+(5, 'Torta de Frango', 'Torta de frango cremosa, com recheio temperado e massa leve.', 8.00, 12, 1),
+(6, 'Biscoito de Maizena', 'Biscoito de maizena leve e amanteigado, que derrete na boca.', 5.00, 30, 1),
+(7, 'Pão de Alegria', 'Pão de Alegria macio, recheado com queijo cremoso.', 3.00, 30, 1),
+(8, 'Pão Doce', 'Pão doce macio e saboroso, perfeito para acompanhar o café.', 3.50, 40, 1),
+(9, 'Rosca de Coco', 'Rosca macia e doce, com sabor suave de coco e cobertura açucarada.', 7.00, 25, 1),
+(10, 'Torta de Limão', 'Torta de limão refrescante, com creme cítrico e base crocante.', 15.00, 18, 1);
