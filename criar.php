@@ -23,6 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Adicionar Produto</title>
+    
 </head>
 <body>
     <h1>Adicionar Produto</h1>
