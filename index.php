@@ -13,7 +13,7 @@
     <header>
         <div id="navbar">
             <div class="flex">
-                <img id="PadariaBumba" src="padaria-logo.png" alt="Logo Padaria Bumba">
+                <img class="PadariaBumba" src="logo.png" alt="Logo Padaria Bumba">
                 <h1>Bem-vindo à Padaria Bumba!</h1>
             </div>
         </div>

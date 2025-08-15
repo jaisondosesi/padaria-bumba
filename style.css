@@ -87,3 +87,13 @@
             background-color: gray;
             height: 20px;
         }
+
+        .PadariaBumba {
+            width: 100px;
+            height: 100px;
+            padding-right: 40%;
+        }
+        .flex h1 {
+        text-align: center;
+        width: 100%;
+        }
